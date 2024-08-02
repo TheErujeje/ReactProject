@@ -8,12 +8,11 @@ import Goodmorning from './components/goodmorning';
 
 function App() {
   return (<>
-  <Goodmorning />
-    {/* <Header />
+    <Header />
     <LessonsInsight />
 
     <div className='text-3xl font-bold underline px-10 pt-[84px] ' > <AiFillApple /> fHello World</div>
-    <Footer /> */}
+    <Footer />
   </>
   );
 }
