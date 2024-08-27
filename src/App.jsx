@@ -13,7 +13,7 @@ function App() {
   return (<>
     <Header />
     <LessonsInsight />
-    <OurClient />
+    {/* <OurClient /> */}
     <ManageCommunity />
     <div className='text-3xl font-bold underline px-10 pt-[84px] ' > <AiFillApple /> fHello World</div>
     <Footer />
