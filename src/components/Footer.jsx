@@ -11,7 +11,7 @@ function Footer () {
         {ptext: 'Company', l1text: 'About us', l2text: 'Blog', l3text: 'Contact us', l4text: 'Pricing', l5text: 'Testimonials'},
         {ptext: 'Support', l1text: 'Help center', l2text: 'Terms of service', l3text: 'Legal', l4text: 'Privacy policy', l5text: 'Status'}
     ]
-    return (
+    return (<>
         <div className='flex justify-center left-0 h-[328px] bg-[#263238] w-full py-[64px] space-x-[7%] '>
             <div className='h[190px] w-[24.3%] '>
                 <Logoicon color="white"/>
@@ -57,7 +57,7 @@ function Footer () {
             </div>
 
         </div>
-    )
+        </>)
 }
 
 export default Footer
